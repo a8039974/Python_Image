@@ -1,14 +1,13 @@
- git push
- 1843  git push origin
- 1844  git push origin master
- 1845  git remote add origin https://github.com/a8039974/Python_Image.git
- 1846  git push -u origin master
- 1847  touch test
- 1848  git add test 
- 1849  git commit -m 'second commit'
- 1850  git push -u origin master
- 1851  git pull
-
  git config --global user.name "a8039974"
  git config --global user.email "chengzhen_8039974@163.com"
+
+ git push origin master
+ git remote add origin https://github.com/a8039974/Python_Image.git
+
+ touch test
+ git add test 
+ git commit -m 'second commit'
+ git push -u origin master
+ git pull
+
 
